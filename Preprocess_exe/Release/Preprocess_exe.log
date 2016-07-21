@@ -1,0 +1,15 @@
+﻿Build started 25/09/2014 02:34:13.
+     1>Project "D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Preprocess_exe\Preprocess_exe.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Release\".
+       InitializeBuildStatus:
+         Creating "Release\Preprocess_exe.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Preprocess.cpp
+         Preprocess.cpp
+     1>d:\tuan_pfiev\do an tot nghiep\code\preprocess_exe\preprocess_exe\preHeader.h(4): fatal error C1083: Cannot open include file: 'opencv/highgui.h': No such file or directory
+     1>Done Building Project "D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Preprocess_exe\Preprocess_exe.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.59

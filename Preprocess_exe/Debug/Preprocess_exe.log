@@ -1,0 +1,26 @@
+﻿Build started 1/25/2016 9:38:14 PM.
+     1>Project "D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Preprocess_exe\Preprocess_exe.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Preprocess_exe.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\include\opencv2 /IC:\opencv\include\opencv /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Preprocess.cpp
+         Preprocess.cpp
+     1>d:\tuan_pfiev\do an tot nghiep\code\preprocess_exe\preprocess_exe\preheader.h(26): warning C4091: 'typedef ' : ignored on left of 'frame' when no variable is declared
+     1>d:\tuan_pfiev\do an tot nghiep\code\preprocess_exe\preprocess_exe\preheader.h(302): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tuan_pfiev\do an tot nghiep\code\preprocess_exe\preprocess_exe\preheader.h(303): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\tuan_pfiev\do an tot nghiep\code\preprocess_exe\preprocess_exe\preheader.h(259): warning C4101: 's' : unreferenced local variable
+     1>d:\tuan_pfiev\do an tot nghiep\code\preprocess_exe\preprocess_exe\preheader.h(328): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Debug\Preprocess_exe.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib /LIBPATH:"C:\Program Files\Microsoft Visual Studio 10.0\VC\lib" /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v7.0A\Lib" opencv_calib3d244d.lib opencv_contrib244d.lib opencv_core244d.lib opencv_features2d244d.lib opencv_flann244d.lib opencv_gpu244d.lib opencv_haartraining_engined.lib opencv_highgui244d.lib opencv_imgproc244d.lib opencv_legacy244d.lib opencv_ml244d.lib opencv_nonfree244d.lib opencv_objdetect244d.lib opencv_photo244d.lib opencv_stitching244d.lib opencv_ts244d.lib opencv_video244d.lib opencv_videostab244d.lib /MANIFEST /ManifestFile:"Debug\Preprocess_exe.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Debug\Preprocess_exe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Debug\Preprocess_exe.lib" /MACHINE:X86 Debug\Preprocess.obj
+     1>Preprocess.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Preprocess_exe.vcxproj -> D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Debug\Preprocess_exe.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Debug\Preprocess_exe.exe;#1" /manifest Debug\Preprocess_exe.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Preprocess_exe.unsuccessfulbuild".
+         Touching "Debug\Preprocess_exe.lastbuildstate".
+     1>Done Building Project "D:\TUAN_PFIEV\Do an tot nghiep\Code\Preprocess_exe\Preprocess_exe\Preprocess_exe.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.23
